@@ -4,10 +4,13 @@ In this project, I trained an architecture of convolutional neural network that 
 # Introduction
 
 # Dataset
-## A dataset of ~9 million varied images with rich annotations
-The images are very diverse and often contain complex scenes with several objects (8.4 per image on average). It contains image-level labels annotations, object bounding boxes, object segmentations, visual relationships, localized narratives, and more
 
+![image](https://user-images.githubusercontent.com/55941654/139727096-a0068ba2-c1c7-4821-af39-f825743c15e7.png)
+
+## A dataset of ~9 million varied images with rich annotations
+The images are very diverse and often contain complex scenes with several objects (8.4 per image on average). It contains image-level labels annotations, object bounding boxes, object segmentations, visual relationships, localized narratives, and more.
 For downloading images I use python libary which is <a href="https://pypi.org/project/openimages/">openimages</a>, for downloding particular class of the dataset.
+I download the annotations in a xml format, so i should convert them to a bitmap format in order to enter them to MaskRCNN load_mask() function.
 # What is Image Segmentation
 The computer vision task Image Segmentation is the process of partitioning a digital image into multiple segments (sets of pixels, also known as image objects). This segmentation is used to locate objects and boundaries (lines, curves, etc.).
 
