@@ -1,8 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 # Instance-segmentation-with-MaskRCNN-on-Custom-dataset
 In this project, I trained an architecture of convolutional neural network that was published in 2019. This model is well suited for instance and semantic segmentation. There is an option to use pre-trained weights. However, I took a step further and trained my own model using one of 600 classes from the Google Open Images dataset. I chose cat as segmentation object, because I love my cat :).
-
-# Introduction
-
 # Dataset
 
 ![image](https://user-images.githubusercontent.com/55941654/139727096-a0068ba2-c1c7-4821-af39-f825743c15e7.png)
