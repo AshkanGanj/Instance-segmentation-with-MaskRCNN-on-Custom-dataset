@@ -6,6 +6,9 @@ In this project, I trained an architecture of convolutional neural network that 
 # Dataset
 # What is Image Segmentation
 # Mask RCNN
+Mask R-CNN is a Convolutional Neural Network (CNN) and state-of-the-art in terms of image segmentation. This variant of a Deep Neural Network detects objects in an image and generates a high-quality segmentation mask for each instance.
+
+![image](https://user-images.githubusercontent.com/55941654/139724945-bf7748e9-3d4a-4b7c-aa22-80c43e27daef.png)
 
 
 # Results
