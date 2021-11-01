@@ -1,9 +1,13 @@
 # Instance-segmentation-with-MaskRCNN-on-Custom-dataset
-In this project, I trained an architecture of convolutional neural network that was published in 2019. This model is well suited for instance and semantic segmentation. There is an option to use pre-trained weights. However, I took a step further and trained my own model using one of 600 classes from the Google Open Images dataset. I chose cat as segmentation object, because i love my cat :).
+In this project, I trained an architecture of convolutional neural network that was published in 2019. This model is well suited for instance and semantic segmentation. There is an option to use pre-trained weights. However, I took a step further and trained my own model using one of 600 classes from the Google Open Images dataset. I chose cat as segmentation object, because I love my cat :).
 
 # Introduction
 
 # Dataset
+## A dataset of ~9 million varied images with rich annotations
+The images are very diverse and often contain complex scenes with several objects (8.4 per image on average). It contains image-level labels annotations, object bounding boxes, object segmentations, visual relationships, localized narratives, and more
+
+For downloading images I use python libary which is <a href="https://pypi.org/project/openimages/">openimages</a>, for downloding particular class of the dataset.
 # What is Image Segmentation
 The computer vision task Image Segmentation is the process of partitioning a digital image into multiple segments (sets of pixels, also known as image objects). This segmentation is used to locate objects and boundaries (lines, curves, etc.).
 
