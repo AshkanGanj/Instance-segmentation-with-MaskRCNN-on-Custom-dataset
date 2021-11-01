@@ -2,6 +2,7 @@
 In this project, I trained an architecture of convolutional neural network that was published in 2019. This model is well suited for instance and semantic segmentation. There is an option to use pre-trained weights. However, I took a step further and trained my own model using one of 600 classes from the Google Open Images dataset. I chose cat as segmentation object, because i love my cat :).
 
 # Introduction
+
 # Dataset
 # What is Image Segmentation
 # Mask RCNN
