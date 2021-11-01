@@ -8,7 +8,7 @@
 # Results
 Some results after running for 1 epoch 
 
-The model has some erros, which is ok because i just trained it for 1 epoch. 
+The model has some errors, which is ok because i trained it just for 1 epoch. 
 
 ![1](https://user-images.githubusercontent.com/55941654/139692582-d9fd1afa-5a14-45f3-b48d-979a44dd9d2f.jpg)
 
